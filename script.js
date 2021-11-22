@@ -4,6 +4,6 @@ function logRectInfo(topLeft, bottomRight){
     let width = topLeft[1] - bottomRight[1];
     console.log(width)
 
-    console.log(`The perimeter is: ${length * width}`)
-    console.log(`The area is: ${2*(length * width)}`)
+    console.log(`The perimeter is: ${2*(length + width)}`)
+    console.log(`The area is: ${length * width}`)
 }
